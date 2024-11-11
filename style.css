@@ -1,0 +1,57 @@
+body {
+    font-size: 17px;
+    background-color: #0f0f0f;
+    color: #dadada;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Roboto;
+    user-select: none;
+    pointer-events: none;
+}
+
+a {
+    color: #dadada;
+}
+
+ap {
+    margin: 10px;
+}
+
+ah1 {
+    margin: 10px;
+}
+
+.cuadro {
+    border: 6px double;
+    padding: 10px;
+    justify-content: 0 auto;
+    border-radius: 5px;
+    width: 89%;
+    margin: auto;
+}
+
+.anuncio {
+    padding: 10px;
+    width: 99.92%;
+    justify-content: 0 auto;
+    border-radius: 5px;
+    background-color: #252525;
+}
+
+.header-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.medio {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
