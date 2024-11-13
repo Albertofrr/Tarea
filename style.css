@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: Roboto;
+    font-family: roboto;
     user-select: none;
     pointer-events: none;
 }
@@ -14,12 +14,33 @@ a {
     color: #dadada;
 }
 
+p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+/*---------Tipos de fuentes---------*/
+h2 {
+    font-family: "roboto slab";
+}
+
+/*-----Parrafo para inicio y fin de un div-----*/
+.aaa {
+    margin-top: 15px;
+}
+
+.bbb{
+    margin-bottom: 15px;
+}
+
 .cuadro {
     border: 6px double;
-    padding: 0 18px 0 18px;
-    justify-content: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
     border-radius: 5px;
     width: auto;
+    padding-top: 0px;
 }
 
 .anuncio {
@@ -30,6 +51,7 @@ a {
     background-color: #252525;
 }
 
+/*-------------pantalla-------------*/
 .header-img {
     width: 100%;
     height: auto;
